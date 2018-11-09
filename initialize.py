@@ -41,6 +41,8 @@ def main():
     fltr_img = np.zeros((emo_s,emo_s))+0.01
     np.save('data/fltr.npy',fltr)
     np.save('data/fltr_krnl.npy',fltr_krnl)
+    if not(os.path.exists('data/out/')):
+        os.mkdir('data/out/');
     for emo in EMO:
         dir = 'data/'+emo+'/'
         if not(os.path.exists(dir)):
