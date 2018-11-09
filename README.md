@@ -46,6 +46,7 @@ numpy, scipy, cv2, PIL, requests, watchdog, time, subprocess, os .
 sorry, forgot.
 
 ## Usage
+at first, change python command in _do.sh_ to yours.
 ```
   python watching.py 1024 300 'public directory path'
 ```
