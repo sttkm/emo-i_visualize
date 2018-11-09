@@ -32,9 +32,9 @@ __do.sh__           : _watching.py_ で呼び出される． _face_crop.py，mk_
   sh do.sh 'output image size' 'face image size' 'public directory path' 'emotion type' 'file number'
 ```
 
-__electron-redus/__ : electronフレームワークでWebGLを使用してvisualize．合成画像が更新される度に更新．
+__electron-readus/__ : electronフレームワークでWebGLを使用してvisualize．合成画像が更新される度に更新．
 ```
-  electron electron-redus/
+  electron electron-readus/
 ```
 
 __data/__           : _絵文字.png_ など．合成のための中間ファイル等．
@@ -51,7 +51,7 @@ sorry, forgot.
 ```
 if _' initialized '_ output, execution next command on other thread.
 ```
-  electron electron-redus/
+  electron electron-readus/
 ```
 
 ## Algorithm of mixing face and emoji
